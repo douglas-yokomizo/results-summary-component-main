@@ -15,9 +15,9 @@ Users should be able to:
 
 
 ## My process
-1- I start writing the html structure
-2- Dividing each section with "div" class
-3- I add the css style
+- I start writing the html structure
+- Dividing each section with "div" class
+- I add the css style
 
 ### Built with
 - VSC
