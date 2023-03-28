@@ -22,41 +22,66 @@
       color: hsl(228, 45%, 44%);
     }
   </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="result-score">
-    <h4 class="result-title">Your Result</h4>
-    <div class="score">
-      <h1 class="scored">76</h1>
-      <h4 class="total">of 100</h4>
+  <div class="col-result">
+    <h2 class="result-title">Your Result</h2>
+    <div class="score-ball">
+      <div class="score-wrapper">
+        <h1 class="scored">76</h1>
+        <p class="total">of 100</p>
+      </div>
     </div>
     <div class="message">
       <h2 class="message-principal">Great</h2>
-      <p class="message-info">You scored higher than 65% of the people who have taken these tests.</p>
+      <p style="font-size: 18px;" class="message-info">You scored higher than 65% of the people who have taken these tests.</p>
     </div>
   </div>
 
-  <div class="Summary">
-    <h3>Summary</h3>
+  <div class="col-summary">
+    <h2>Summary</h2>
     <div class="reaction">
       <img src="./assets/images/icon-reaction.svg" alt="Thundebolt Image">
-      Reaction 80 / 100
+      <div class="reaction-text">Reaction
+      </div>
+      <div class="reaction-score">
+        <b>80</b> / 100
+      </div>
     </div>
     <br>
     <div class="memory">
       <img src="./assets/images/icon-memory.svg" alt="Brain Image">
-      Memory 92 / 100  
+      <div class="memory-text">
+        Memory
+      </div>
+      <div class="memory-score">
+        <b>92</b> / 100
+      </div>
     </div>
     <br>
     <div class="verbal">
       <img src="./assets/images/icon-verbal.svg" alt="Chatbox Image">
-      Verbal 61 / 100  
+      <div class="verbal-text">
+        Verbal
+      </div>
+      <div class="verbal-score">
+        <b>61</b> / 100
+      </div>
     </div>
     <br>
     <div class="visual">
       <img src="./assets/images/icon-visual.svg" alt="Eye Image">
-      Visual 72 / 100  
+      <div class="visual-text">
+        Visual
+      </div> 
+      <div class="visual-score">
+        <b>72</b> / 100
+      </div>
     </div>
     <br>
     <button>Continue</button>
